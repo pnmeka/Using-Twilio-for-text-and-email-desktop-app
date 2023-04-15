@@ -29,11 +29,11 @@ def send_message():
 def clear_text():
    ent_phone.delete(2, END)
    ent_message.delete(0, END)
-   ent_message.insert(0, "DFCI 6B here: We anticipate the team will call you during rounds. The team will tentatively round between *** am.  Text M for more information and STOP to stop receiving messages.")
+   ent_message.insert(0, "Twilio here: We anticipate the team will call you during rounds. The team will tentatively round between *** am.  Text M for more information and STOP to stop receiving messages.")
 
 #define email RC
 def mail_to():
-    webbrowser.open("mailto:?subject=Patient representative wishes to be called during rounds&body=Dear RC and Dr ***,\n\nThe following patient representative wishes to be called daily during rounds.\n\n\nPatient Identifier: \nRepresentative:\nTime slot: \ntel:*67***\n\n\n Please note: \n\n1. Use the one-click-anonymized-call-format to call the patient. (it is preformatted to *67 format) \n2. Please document in your progress note that the patient representative was called.\n\n\nBest, \nPraveen Meka\ntel:3187800572")
+    webbrowser.open("mailto:?subject=Patient representative wishes to be called during rounds&body=Dear RC and Dr ***,\n\nThe following patient representative wishes to be called daily during rounds.\n\n\nPatient Identifier: \nRepresentative:\nTime slot: \ntel:*67***\n\n\n Please note: \n\n1. Use the one-click-anonymized-call-format to call the patient. (it is preformatted to *67 format) \n2. Please document in your progress note that the patient representative was called.\n\n\nBest, \nP Meka\ntel:********")
     
 # Create a new window with the title "Address Entry Form"
 window = tk.Tk()
