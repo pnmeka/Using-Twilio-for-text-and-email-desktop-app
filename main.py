@@ -1,3 +1,6 @@
+#MIT License for open use
+#Created by Meka
+
 #text message app and email desktop app
 import tkinter as tk
 from tkinter import *
